@@ -1,2 +1,39 @@
+li:nth-child(odd) {
+color: orange;
+}
 
+li:nth-child(4) {
+    color: red;
+}
 
+li:nth-child(5) {
+    color:purple;
+}
+
+li:nth-last-child(1) {
+    color:yellow;
+}
+
+li:nth-child(2) {
+    color: green;
+}
+
+li:hover {
+    color: aqua;
+}
+
+ol:hover {
+    color: pink;
+}
+
+li:focus {
+    color: lightskyblue;
+}
+
+ol:focus {
+    color: brown;
+}
+
+LI:active {
+    color: rgb(106, 0, 255);
+}
