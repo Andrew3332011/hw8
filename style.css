@@ -10,7 +10,7 @@ p:nth-child(1) {
     color: red;
 }
 
-p:nth-child() {
+p:nth-last-child(2) {
     color: green;
 }
 
@@ -58,7 +58,7 @@ ol:hover {
     color: pink;
 }
 
-li:focus {
+a:focus {
     color: lightskyblue;
 }
 
@@ -66,6 +66,6 @@ ol:focus {
     color: brown;
 }
 
-LI:active {
+li:active {
     color: rgb(106, 0, 255);
 }
